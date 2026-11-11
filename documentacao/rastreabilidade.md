@@ -1,4 +1,4 @@
-# Rastreabilidade ao conteúdo do professor
+# Rastreabilidade das técnicas
 
 ## Técnicas centrais
 
@@ -14,7 +14,7 @@
 | time.perf_counter | Lab13, exemplo de vídeo | Durações reais e tempo de processamento |
 | Matplotlib, plots, histogramas | Lab01/Lab03 | Análise das medições |
 
-Links completos no README. As posições faciais, distâncias e condicionais dão base à adaptação, mas o professor não apresentou nesta pesquisa um sistema pronto de classificação das quatro direções. H e V são heurísticas autorais 2D, sem estimador 3D.
+As regras H e V são adaptações autorais de coordenadas, distâncias e condicionais. Os laboratórios fornecem os fundamentos de detecção e landmarks, não um classificador pronto das quatro direções. Não há estimador 3D.
 
 ## Código auxiliar
 
@@ -26,8 +26,16 @@ Os PDFs foram diagramados externamente ao projeto: ReportLab não faz parte da i
 
 DeepFace, InsightFace, FaceNet, embeddings de identidade, estimadores 3D, solvePnP, detectores de deepfake, modelos de emoção, TensorFlow/PyTorch, APIs de IA, Flask, FastAPI, Streamlit, React, RabbitMQ e criptografia própria.
 
-Não copiar uma biblioteca inteira só porque o professor importou algum módulo. Se for necessário ampliar uma técnica, primeiro encontrar a explicação/exemplo no material e atualizar esta matriz.
+O escopo da implementação restringe-se às operações e fundamentos identificados na tabela. O uso de uma biblioteca não implica adoção de todos os seus algoritmos.
 
 ## Ajuste numérico por sessão
 
 Acrescentado após o piloto de limites fixos: listas de medidas, média aritmética com sum/len, intervalo de estabilidade com min/max e condicionais. Não utiliza novo modelo, foto de referência, reconhecimento de identidade ou biblioteca adicional. Frações e margens são decisões autorais a avaliar.
+
+## Referências
+
+- [Lab01 — imagens](https://arnaldojr.github.io/cognitivecomputing/aulas/PDI/lab01/IntroPID.html)
+- [Lab03 — histogramas e webcam](https://arnaldojr.github.io/cognitivecomputing/aulas/PDI/lab03/atividade3.html)
+- [Lab11 — interação](https://arnaldojr.github.io/cognitivecomputing/aulas/PDI/lab15/EventMouse.html)
+- [Lab12 — dlib e EAR](https://arnaldojr.github.io/cognitivecomputing/aulas/PDI/lab16/dlib2.html)
+- [Lab13 — temporização](https://arnaldojr.github.io/cognitivecomputing/aulas/PDI/lab17/mediapipe.html)

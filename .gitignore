@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+modelos/*.dat
+modelos/*.bz2
+dados/privados/
+resultados/sessao_*/

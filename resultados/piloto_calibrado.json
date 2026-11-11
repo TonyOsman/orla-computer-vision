@@ -1,0 +1,79 @@
+{
+  "sessao": "sessao_20261110_194521",
+  "tentativas": [
+    {
+      "inicio_s": 22.5403255429992,
+      "etapas": [
+        "ETAPA_CENTRO",
+        "ETAPA_ESQUERDA",
+        "ETAPA_CENTRO",
+        "ETAPA_DIREITA",
+        "ETAPA_CENTRO",
+        "ETAPA_CIMA",
+        "ETAPA_CENTRO",
+        "ETAPA_BAIXO",
+        "ETAPA_CENTRO",
+        "ETAPA_PISCADA"
+      ],
+      "status": "concluida",
+      "duracao_s": 13.351
+    },
+    {
+      "inicio_s": 53.753463606997684,
+      "etapas": [
+        "ETAPA_CENTRO",
+        "ETAPA_ESQUERDA",
+        "ETAPA_CENTRO",
+        "ETAPA_DIREITA",
+        "ETAPA_CENTRO",
+        "ETAPA_CIMA",
+        "ETAPA_CENTRO",
+        "ETAPA_BAIXO",
+        "ETAPA_CENTRO",
+        "ETAPA_PISCADA"
+      ],
+      "status": "concluida",
+      "duracao_s": 22.494
+    },
+    {
+      "inicio_s": 80.45502357799705,
+      "etapas": [
+        "ETAPA_CENTRO"
+      ],
+      "status": "interrompida"
+    },
+    {
+      "inicio_s": 92.90744956400158,
+      "etapas": [
+        "ETAPA_CENTRO",
+        "ETAPA_ESQUERDA"
+      ],
+      "status": "interrompida"
+    },
+    {
+      "inicio_s": 101.28957933199854,
+      "etapas": [
+        "ETAPA_CENTRO",
+        "ETAPA_ESQUERDA",
+        "ETAPA_CENTRO",
+        "ETAPA_DIREITA",
+        "ETAPA_CENTRO",
+        "ETAPA_CIMA",
+        "ETAPA_CENTRO",
+        "ETAPA_BAIXO",
+        "ETAPA_CENTRO",
+        "ETAPA_PISCADA"
+      ],
+      "status": "concluida",
+      "duracao_s": 17.997
+    }
+  ],
+  "interpretacao": "Eventos do programa; sem rotulos independentes e sem estimativa de acuracia humana.",
+  "camera_encerrada": true,
+  "retorno_participante": {
+    "data": "2026-11-10",
+    "relato": "Tudo correspondeu, movimentos leves",
+    "tipo": "autorrelato global após o piloto; não é rotulagem independente por frame",
+    "correspondencia_confirmada": true
+  }
+}

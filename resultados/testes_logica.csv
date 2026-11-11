@@ -1,0 +1,27 @@
+teste;resultado;detalhe
+EAR conhecido;PASSOU;Esperado 0.5
+Olho degenerado;PASSOU;Sem divisao por zero
+Escala e translacao;PASSOU;Razoes invariantes nesta geometria
+Pontos invalidos;PASSOU;Quantidade incorreta rejeitada
+Regra ESQUERDA;PASSOU;Medidas sinteticas conhecidas
+Regra DIREITA;PASSOU;Medidas sinteticas conhecidas
+Regra CIMA;PASSOU;Medidas sinteticas conhecidas
+Regra BAIXO;PASSOU;Medidas sinteticas conhecidas
+Regra CENTRO;PASSOU;Medidas sinteticas conhecidas
+Regra AMBIGUO;PASSOU;Medidas sinteticas conhecidas
+Fluxo completo;PASSOU;Sequencia sintetica de 10 etapas
+Movimento errado;PASSOU;Direita nao atende centro
+Lacuna temporal;PASSOU;Tempo sem frames nao conta sustentacao
+Olhos fechados demais;PASSOU;Nao confundir fadiga com piscada
+Perda de rosto na piscada;PASSOU;Evento parcial descartado
+Prazo da etapa;PASSOU;Espera nao e ilimitada
+Relogio repetido;PASSOU;Timestamp nao crescente rejeitado
+Observacao invalida;PASSOU;Nenhuma etapa avancou
+Comecar de olhos fechados;PASSOU;Abertura inicial obrigatoria
+Referencia numerica neutra;PASSOU;Sem fotografia ou identidade
+EAR relativo;PASSOU;70% e 85% da abertura de referencia
+Calibracao perde face;PASSOU;Descarta amostras parciais
+Calibracao instavel;PASSOU;Movimento nao estabelece referencia
+Direcao independente do EAR;PASSOU;Inclinacao nao exige abertura frontal dos olhos
+Centro exige olhos abertos;PASSOU;Abertura continua obrigatoria no centro
+Perda de face ainda bloqueia direcao;PASSOU;EAR separado nao elimina retorno seguro ao centro

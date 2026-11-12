@@ -16,6 +16,30 @@ Vídeo de um aluno demonstrando o funcionamento da aplicação. Clique na imagem
 
 [Assistir à demonstração](https://github.com/TonyOsman/orla-computer-vision/blob/main/documentacao/midia/demonstracao-orla.mp4)
 
+## Medidas de direção: H e V
+
+As direções são inferidas por razões geométricas calculadas a partir dos landmarks. São regras autorais sobre os pontos faciais, não ângulos de rotação nem reconhecimento de identidade. Os diagramas são esquemáticos, sem escala anatômica.
+
+### H — posição horizontal do nariz
+
+Compara o deslocamento horizontal do nariz em relação ao centro entre os olhos com a distância entre os centros dos olhos:
+
+`H = (xN − xC) / d`
+
+O programa compara H com H0, obtido na calibração. Nos diagramas, laranja indica o numerador e verde indica o denominador.
+
+![Diagrama de H: deslocamento horizontal do nariz dividido pela distância entre os olhos](documentacao/midia/H-horizontal.png)
+
+### V — posição vertical relativa do nariz
+
+Compara a diferença vertical entre nariz e centro dos olhos com a diferença vertical entre centro da boca e centro dos olhos:
+
+`V = (yN − yC) / (yM − yC)`
+
+O programa compara V com V0, obtido na calibração. São diferenças de coordenadas verticais, não distâncias diagonais. Ambas as razões são adimensionais; anatomia, perspectiva e expressão ainda podem afetá-las.
+
+![Diagrama de V: posição vertical do nariz entre as linhas dos olhos e da boca](documentacao/midia/V-vertical.png)
+
 ## Instalação — Ubuntu/Linux
 
 Ambiente verificado: Python 3.12, Linux x86-64, webcam e sessão gráfica local. Windows e macOS não foram testados. Execute os comandos no terminal, na raiz do projeto, onde está este README. Após clonar o repositório, essa pasta é `orla-computer-vision`; no ZIP, ela se chama `orla`.

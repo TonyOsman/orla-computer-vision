@@ -8,6 +8,14 @@ Cognitive Computing, Computer Vision and IoT Systems — Professor Arnaldo Jr.
 
 Protótipo local em Python que utiliza OpenCV e dlib para detectar uma face, estimar 68 pontos faciais e acompanhar quatro direções da cabeça e uma piscada completa. Integra o tema Orla por meio de uma solicitação fictícia de documento. Não reconhece identidade nem autoriza transações.
 
+## Demonstração
+
+Vídeo de um aluno demonstrando o funcionamento da aplicação. Clique na imagem para abrir o vídeo.
+
+[![Demonstração da Orla por um aluno](documentacao/midia/demonstracao-orla.jpg)](https://github.com/TonyOsman/orla-computer-vision/blob/main/documentacao/midia/demonstracao-orla.mp4)
+
+[Assistir à demonstração](https://github.com/TonyOsman/orla-computer-vision/blob/main/documentacao/midia/demonstracao-orla.mp4)
+
 ## Instalação — Ubuntu/Linux
 
 Ambiente verificado: Python 3.12, Linux x86-64, webcam e sessão gráfica local. Windows e macOS não foram testados. Execute os comandos no terminal, na raiz do projeto, onde está este README. Após clonar o repositório, essa pasta é `orla-computer-vision`; no ZIP, ela se chama `orla`.
